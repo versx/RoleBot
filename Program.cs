@@ -1,6 +1,9 @@
 ﻿namespace RoleBot
 {
+    using System;
     using System.Threading.Tasks;
+
+    using RoleBot.Configuration;
 
     class Program
     {
@@ -8,7 +11,7 @@
 
         static async Task MainAsync(string[] args)
         {
-            var config = Configuration.Config.Load();
+            var config = Config.Load();
             if (config == null)
             {
                 Console.WriteLine($"Failed to load config file '{Config.ConfigFileName}'.");
