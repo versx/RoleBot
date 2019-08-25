@@ -8,11 +8,10 @@
 
         static async Task MainAsync(string[] args)
         {
-            //var logger = Diagnostics.EventLogger.GetLogger();
             var config = Configuration.Config.Load();
             if (config == null)
             {
-                //logger.Error($"Failed to load config file '{Config.ConfigFileName}'.");
+                Console.WriteLine($"Failed to load config file '{Config.ConfigFileName}'.");
                 return;
             }
 
