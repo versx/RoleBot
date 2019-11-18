@@ -1,0 +1,16 @@
+{
+    "token": "<DISCORD_BOT_TOKEN>",
+	"guilds": {
+	    000000000000: [
+		    000000000000,
+			000000000001
+		],
+	    000000000001: [
+		    000000000000,
+			000000000001
+		]
+	},
+	"connectionString": "Uid=user;Password=pass123;Server=127.0.0.1;Port=3306;Database=rdm;",
+	"roleCheckIntervalM": 30,
+	"desiredGroupName": "donor"
+}
