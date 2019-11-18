@@ -25,4 +25,5 @@ wget https://raw.githubusercontent.com/versx/RoleBot/netcore/install.sh && chmod
 3. `cd bin/Debug/netcoreapp2.1`  
 4. `~/.dotnet/dotnet RoleBot.dll`  
 
-**If using PMSF**: Replace `discord-callback.php` with the `discord-callback.php` file in this repository and change the RDM `group_name` column on line `35` to the group name in the `config.json` file. This modified discord callback checks RDM `user` table if the user has their Discord account linked to their RDM map account and has the desired group name.  
+**If using PMSF**: Replace `discord-callback.php` with the `discord-callback.php` file in this repository and change the RDM `group_name` column on line `35` to the group name in the `config.json` file.  
+This modified discord callback checks RDM `user` table if the user has their Discord account linked to their RDM map account and has the desired group name.  
